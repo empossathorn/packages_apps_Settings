@@ -158,6 +158,11 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+     <SwitchPreference
+        android:key="pocket_judge"
+        android:title="@string/pocket_judge_title"
+        android:summary="@string/pocket_judge_summary" />
+
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="enable_conditions"
         android:title="@string/dashboard_conditions_title"

@@ -50,11 +50,13 @@ public class AppOpsState {
     final CharSequence[] mOpSummaries;
     final CharSequence[] mOpLabels;
 
+    List<AppOpEntry> mApps;
+
     public AppOpsState(Context context) {
         mContext = context;
         mAppOps = (AppOpsManager)context.getSystemService(Context.APP_OPS_SERVICE);
         mPm = context.getPackageManager();
-        mOpSummaries = context.getResources().getTextArray(R.array.app_ops_summaries);
+        mOpSummaries = context.getResources().getTextArray(R.array.app_ops_labels);
         mOpLabels = context.getResources().getTextArray(R.array.app_ops_labels);
     }
 
@@ -180,6 +182,7 @@ public class AppOpsState {
                     false,
                     false,
                     false,
+                    false,
                     false }
             );
 
@@ -211,9 +214,15 @@ public class AppOpsState {
             new boolean[] { false }
             );
 
+    public static final OpsTemplate BOOTUP_TEMPLATE = new OpsTemplate(
+            new int[] { AppOpsManager.OP_BOOT_COMPLETED },
+            new boolean[] { true, }
+            );
+
     public static final OpsTemplate[] ALL_TEMPLATES = new OpsTemplate[] {
             LOCATION_TEMPLATE, PERSONAL_TEMPLATE, MESSAGING_TEMPLATE,
-            MEDIA_TEMPLATE, DEVICE_TEMPLATE, RUN_IN_BACKGROUND_TEMPLATE
+            MEDIA_TEMPLATE, DEVICE_TEMPLATE, RUN_IN_BACKGROUND_TEMPLATE,
+            BOOTUP_TEMPLATE
     };
 
     /**

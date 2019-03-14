@@ -15,14 +15,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Fingerprint location message -->
+
+     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huella digital en el frontal del teléfono.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Localiza el sensor de huell digital en el lado izquierdo de tu teléfono.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Localiza el sensor de huella digital en el lado derecho de tu teléfono.</string>
+   
     <!-- Notification light settings -->
     <string name="lights_category_title">Ajustes de LED</string>
     <string name="notification_light_title">Luz de notificación</string>
     <string name="battery_light_title">Indicador de batería</string>
+    
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> es <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
     <string name="sim_disabled">deshabilitado</string>
@@ -39,8 +42,10 @@
     <string name="sub_activate_failed">Activación fallida.</string>
     <string name="sub_deactivate_success">SIM desactivada.</string>
     <string name="sub_deactivate_failed">Desactivación fallida.</string>
+    
     <!-- Generic stuff used everywhere -->
     <string name="reset">Restablecer</string>
+    
     <!-- Buttons -->
     <string name="button_pref_title">Botones</string>
     <string name="hardware_keys_home_key_title">Botón de inicio</string>
@@ -72,6 +77,7 @@
     <string name="camera_sleep_on_release_summary">Una leve pulsación del botón de la cámara dejará la pantalla encendida mientras el botón se mantenga pulsado</string>
     <string name="camera_launch_title">Iniciar cámara</string>
     <string name="camera_launch_summary">Una pulsación larga iniciará la cámara</string>
+   
     <!-- Key backlight -->
     <string name="button_backlight_title">Contraluz</string>
     <string name="button_backlight_enabled">Iluminar botones</string>
@@ -82,9 +88,11 @@
     <string name="backlight_summary_disabled">Desactivado</string>
     <string name="backlight_summary_enabled_with_timeout">Activado durante <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Activado</string>
+    
     <!-- Weather -->
     <string name="weather_title">Tiempo</string>
     <string name="weather_unit">Unidad de temperatura</string>
+    
     <!-- Ambient Play -->
     <string name="ambient_play_summary">Mostrar canciones cercanas</string>
     <string name="ambient_play_lockscreen_title">Mostrar canciones en la pantalla de bloqueo</string>
@@ -116,12 +124,15 @@
     <string name="ambient_play_saving_options_quiet_period_enable_summary">Desactivar el reconocimiento por un cierto tiempo</string>
     <string name="ambient_play_saving_options_quiet_period_start_time_title">Hora de inicio</string>
     <string name="ambient_play_saving_options_quiet_period_end_time_title">Hora de finalización</string>
+    
     <!-- Face auto unlock -->
     <string name="face_auto_unlock_title">Desbloqueo facial automático</string>
     <string name="face_auto_unlock_summary">Quitar la pantalla de bloqueo tras desbloqueo facial</string>
+    
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Reinicio avanzado</string>
     <string name="advanced_reboot_summary">Al desbloquear, incluir las opciones de reiniciar en el modo de recuperación o en el bootloader del menú de apagado</string>
+   
     <!-- Thermal control per app -->
     <string name="thermal_control_per_app">Perfil de optimización</string>
     <string name="thermal_control_per_app_default">Sin optimización</string>
@@ -131,4 +142,104 @@
     <string name="thermal_control_per_app_video_playback">Reproducción de vídeo</string>
     <string name="thermal_control_per_app_dialer">Marcador de teléfono</string>
     <string name="thermal_control_per_app_camera">Cámara</string>
+
+    <!-- Evolution X settings -->
+    <string name="evolution_settings_title">Evolution X</string>
+    <string name="evolution_settings_summary">Cree en Evolution X</string>
+
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Silenciar, no multimedia</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Encendido (Silenciar, no multimedia)</string>
+
+    <string name="full_gesture_mode_title">Activar modo de gestos completo</string>
+    <string name="full_gesture_mode_summary">Este modo desactiva el boton de volver asi que puedes hacer la accion de volver deslizando hacia la izquierda en la barra de navegacion. Deslizar hacia la derecha manda a la aplicacion anterior y al desplazamiento entre recientes. Para ir al inicio puedes tocar en cualquier espacio vacio de la barra de navegacion, no solo en el boton inicio. Cuando el teclado esta en uso, manten en la barra de navegacion y mueve hacia los lados para mover el cursor.</string>
+    <string name="full_gesture_mode_dt2s_title">Activar doble toque para dormir</string>
+    <string name="full_gesture_mode_dt2s_summary">Doble toque en un espacio vacio en la barra de navegacion para apagar la pantalla.</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Aleatorizar numeros</string>
+    <string name="unlock_scramble_pin_layout_summary">Aleatorizar los numeros de PIN para desbloquear el dispositivo</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibrar al cargar</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevenir encencido accidentar</string>
+    <string name="proximity_wake_summary">Revisar el sensor de proximidad antes de encender la pantalla</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rapido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquea automaticamente cuando el PIN/Contraseña introducidos es el correcto</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reinciar historial</string>
+    <string name="battery_stats_message">El historial de la bateria sera reiniciado</string>
+    <string name="ok_string">Aceptar</string>
+
+    <!-- ANBI -->
+    <string name="anbi_title">Toque accidental</string>
+    <string name="anbi_summary">Prevenir la interaccion con los botones de navegacion cuando la pantalla esta siendo tocada</string>
+
+    <string name="dashboard_conditions_title">Condiciones de tablero</string>
+    <string name="summary_dashboard_conditions_enabled">Condiciones de tablero estan activadas</string>
+    <string name="summary_dashboard_conditions_disabled">Condiciones de tablero estan desactivadas</string>
+
+    <string name="dashboard_suggestions_title">Sugerencias de tablero</string>
+    <string name="summary_dashboard_suggestions_enabled">Sugerencias de tablero estan activadas</string>
+    <string name="summary_dashboard_suggestions_disabled">Sugerencias de tablero estan desactivadas</string>
+
+    <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Tono de llamada - SIM 1</string>
+    <string name="ringtone2_title">Tono de llamada - SIM 2</string>
+
+    <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Deslizar en el lector de huellas a la izquierda/derecha para borrar notificaciones</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Para borrar notificaciones, desliza hacia la izquierda/derecha en el lector de huellas.</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostrar el registro de historial de notificaciones</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Escritorio expandido</string>
+    <string name="expanded_hide_nothing">No esconder nada</string>
+    <string name="expanded_hide_status">Esconder barra de estado</string>
+    <string name="expanded_hide_navigation">Esconder barra de navegacion</string>
+    <string name="expanded_hide_both">Ocultar ambos</string>
+    <string name="expanded_nothing_to_show">Para personalizar esto por aplicacion, desactiva el "Activado para todas"</string>
+    <string name="expanded_desktop_state">Estado expandido</string>
+    <string name="expanded_enabled_for_all">Activado para todas</string>
+    <string name="expanded_user_configurable">Configurable por usuario</string>
+    <string name="expanded_desktop_style">Estilo de escritorio expandido</string>
+    <string name="expanded_desktop_style_description">Elegir estilo por defecto de escritorio expandido</string>
+    <string name="expanded_desktop_title">Opciones de escritorio expandido</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Juntar volumen de llamada &amp; notificaciones</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Tono ascendente</string>
+    <string name="increasing_ring_min_volume_title">Volumen inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Tiempo para aumentar</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Datos moviles</string>
+    <string name="data_usage_app_restrict_data_summary">Activar uso de datos moviles</string>
+    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activar uso de datos Wi\u2011Fi</string>
+
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Despertar en carga</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Despegar al conectar/desconectar al cargador</string>
+
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Modo una mano</string>
+    <string name="one_hand_mode_summary">Permite deslizar a la izquierda o derecha en la barra de navegacion para activar</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on mientras se carga</string>
+    <string name="doze_on_charge_summary">Mostra tiempo, icono de notificaciones y otra informacion mientras se carga</string>
+
 </resources>

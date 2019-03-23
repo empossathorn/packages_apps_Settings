@@ -101,6 +101,15 @@
         android:order="-135"
         settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
 
+    <!-- Audio Panel view  -->
+    <PreferenceScreen
+        android:key="volume_panel"
+        android:icon="@drawable/ic_tune"
+        android:title="@string/audio_panel_view_title"
+        android:summary="@string/audio_panel_view_summary"
+        android:order="-139"
+        android:fragment="com.android.settings.sound.VolumePanel" />
+
     <!-- Also vibrate for calls -->
     <SwitchPreference
         android:key="vibrate_when_ringing"

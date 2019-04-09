@@ -210,4 +210,12 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">แสดงข้อมูลตลอดเวลาในขณะชาร์จ</string>
     <string name="doze_on_charge_summary">แสดงเวลา,ไอคอน, การแจ้งเตือน และข้อมูลอื่น ๆ เมื่อชาร์จแบตเตอรี่</string>
+     
+    <!-- Font picker -->
+    <string name="font_picker_title">แบบอักษร</string>
+    <string name="font_picker_progress">ใช้แบบอักษรใหม่\u2026</string>
+    
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
 </resources>

@@ -45,7 +45,7 @@ import android.view.View;
 import android.view.View.OnLongClickListener;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
-import com.android.internal.util.pixys.PixysUtils;
+import com.android.internal.util.evo.EvoXUtils;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -368,9 +368,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mScreenUsagePref.setSubtitle(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
         mBatteryTemp.setSubtitle(
-                com.android.internal.util.pixys.PixysUtils.mccCheck(getContext()) ?
-                com.android.internal.util.pixys.PixysUtils.batteryTemperature(getContext(), true) + "°F" :
-                com.android.internal.util.pixys.PixysUtils.batteryTemperature(getContext(), false) + "°C");
+                com.android.internal.util.evo.EvoXUtils.mccCheck(getContext()) ?
+                com.android.internal.util.evo.EvoXUtils.batteryTemperature(getContext(), true) + "°F" :
+                com.android.internal.util.evo.EvoXUtils.batteryTemperature(getContext(), false) + "°C");
 
         final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
         Intent batteryBroadcast = context.registerReceiver(null,

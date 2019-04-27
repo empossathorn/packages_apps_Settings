@@ -3347,11 +3347,11 @@
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <!-- Hide Apps from Recents (HAFR) -->
-        <activity android:name="com.extra.settings.recents.HAFRAppListActivity" />
+        <activity android:name="com.evo.settings.recents.HAFRAppListActivity" />
 
         <!-- Evolution X settings -->
-        <activity android:name=".Settings$ExtraSettingsActivity"
-                  android:label="@string/evolution_settings_title"
+        <activity android:name=".Settings$EvoXSettingsActivity"
+                  android:label="@string/evox_settings_title"
                   android:icon="@drawable/ic_homepage_evolution"
                   android:taskAffinity="com.android.settings">
             <intent-filter android:priority="-1">
@@ -3360,7 +3360,7 @@
             <meta-data android:name="com.android.settings.category"
                        android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.extra.settings.ExtraSettings" />
+                       android:value="com.evo.settings.EvoXSettings" />
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/evolution_settings_summary"/>
         </activity>

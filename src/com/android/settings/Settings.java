@@ -167,6 +167,6 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
 
     // Evolution X additions
-    public static class ExtraSettingsActivity extends SettingsActivity {}
+    public static class EvoXSettingsActivity extends SettingsActivity {}
 
 }

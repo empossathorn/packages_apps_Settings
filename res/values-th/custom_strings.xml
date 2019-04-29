@@ -49,7 +49,7 @@
     <string name="hardware_keys_assist_key_title">ปุ่มค้นหา</string>
     <string name="hardware_keys_appswitch_key_title">ปุ่มแอปล่าสุด</string>
     <string name="hardware_keys_camera_key_title">ปุ่มเปิดกล้อง</string>
-    <string name="hardware_keys_short_press_title">แตะฃ่วงสั้นๆ</string>
+    <string name="hardware_keys_short_press_title">แตะช่วงสั้นๆ</string>
     <string name="hardware_keys_long_press_title">แตะค้างนาน</string>
     <string name="hardware_keys_double_tap_title">แตะสองครั้ง</string>
     <string name="hardware_keys_action_nothing">ไม่ทำอะไร</string>
@@ -118,9 +118,6 @@
     <string name="screenshot_sound_title">เสียงถ่ายภาพหน้าจอ</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">สั่นเมื่อชาร์จแบตเตอรี่</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">ป้องกันการปลุกโดยไม่ตั้งใจ</string>
-    <string name="proximity_wake_summary">ตรวจสอบเซ็นเซอร์ proximity ก่อนปลุกหน้าจอ</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">ปลดล็อคอย่างรวดเร็ว</string>
     <string name="unlock_quick_unlock_control_summary">ปลดล็อคโดยอัตโนมัติเมื่อป้อน PIN หรือ รหัสผ่านที่ถูกต้อง</string>
@@ -199,5 +196,8 @@
     <string name="audio_panel_view_voice_title">โทร</string>
     <string name="audio_panel_view_bt_sco_title">บลูทูธ</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(ดีปสลีป Deep Sleep: %1$d%2$s)</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">ตรวจจับอุปกรณ์เมื่ออยู่ในกระเป๋า</string>
+    <string name="pocket_judge_summary">บล็อกหน้าจอและปุ่มอินพุตเมื่ออุปกรณ์อยู่ในกระเป๋า</string>
 </resources>
